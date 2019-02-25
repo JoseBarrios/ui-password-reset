@@ -1,0 +1,55 @@
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="module" src="../element/controller.js"></script>
+
+<style>
+	ui-password-reset {
+		--ui-password-reset-font-family: 'Roboto', sans-serif;
+		--ui-password-reset-container-bg-color: #fff;
+		--ui-password-reset-container-border-color: gray;
+
+		--ui-password-reset-input-bg-color: #fff;
+		--ui-password-reset-input-border-color: darkGray;
+
+		--ui-password-reset-button-bg-color: #409ad7;
+		--ui-password-reset-button-border-color: #409ad7;
+		--ui-password-reset-button-bg-color-hover: #409ad7;
+		--ui-password-reset-button-border-color-hover: #409ad7;
+
+		--ui-password-reset-button-text-color: #fff;
+
+		--ui-password-reset-text-color: #757575;
+		--ui-password-reset-link-color: #757575;
+		--ui-password-reset-link-hover-color: #409ad7;
+		--ui-password-reset-text-error-color: #CD5C5C;
+
+	}
+	.password-reset-container {
+		background-color:white;
+		width:250px;
+		height:400px;
+		margin-top:20vh;
+		margin-left:25%;
+		border:1px solid gray;
+	}
+</style>
+
+
+<body style="background-color:lightGray;padding:0px;margin:0px;">
+
+	<ui-password-reset step="1" action="http://localhost:3000/user/create" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="xxx" email="test@test.com"></ui-password-reset>
+
+	<!--<div class="password-reset-container">-->
+
+		<!--<ui-password-reset action="http://localhost:3000/user/create" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="xxx"></ui-password-reset>-->
+
+		<!--<ui-password-reset action="http://localhost:3000/user/create" given-name="jose" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="13Mi19Dm-wq5BBxGtd-ErUENbUkSHHLK9d7E"></ui-password-reset>-->
+
+		<!--<ui-password-reset action="http://localhost:3000/user/create" given-name="jose" family-name="barrios" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="13Mi19Dm-wq5BBxGtd-ErUENbUkSHHLK9d7E"></ui-password-reset>-->
+
+		<!--<ui-password-reset action="http://localhost:3000/user/create" given-name="jose" family-name="barrios" email="jose@barrios.io" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="13Mi19Dm-wq5BBxGtd-ErUENbUkSHHLK9d7E"></ui-password-reset>-->
+
+		<!--<ui-password-reset action="http://localhost:3000/user/create" given-name="jose" family-name="barrios" email="JOSE@barrios.io" logo="https://cdn.filestackcontent.com/RcFDirxyRFyypyEdEHYe" csrf="13Mi19Dm-wq5BBxGtd-ErUENbUkSHHLK9d7E" error="error message"></ui-password-reset>-->
+
+	<!--</div>-->
+</body>

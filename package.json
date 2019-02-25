@@ -1,0 +1,30 @@
+{
+  "name": "ui-password-reset",
+  "version": "1.0.0",
+  "description": "A custom password reset element",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/http-server/bin/http-server",
+    "start": "npm install; npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseBarrios/ui-password-reset.git"
+  },
+  "keywords": [
+    "custom",
+    "element",
+    "password",
+    "reset",
+    "class"
+  ],
+  "author": "JoseBarrios",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JoseBarrios/ui-password-reset/issues"
+  },
+  "homepage": "https://github.com/JoseBarrios/ui-password-reset#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
