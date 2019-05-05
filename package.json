@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/JoseBarrios/ui-password-reset#readme",
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^0.11.1"
   }
 }
