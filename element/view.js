@@ -1,6 +1,6 @@
 const view = document.createElement("template");
 view.innerHTML = `
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/common/fonts/fontawesome-pro/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
 
   <style>
 		:host([hidden]) {
@@ -206,7 +206,7 @@ view.innerHTML = `
 
 				<button id="submitButton" type="submit" class="password-reset-button">
 					<span id="emailButtonText">Get Reset Link</span>
-					<span id="sentButtonText" ><span class="fa fa-check"></span>&nbsp Email SENT</span>
+					<span id="sentButtonText" ><span class="far fa-check"></span>&nbsp Email SENT</span>
 					<span id="passwordResetButtonText" >Change password</span>
 				</button>
 

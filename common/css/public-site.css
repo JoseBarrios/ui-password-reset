@@ -1,0 +1,76 @@
+* {
+	--ui-login-font-family: 'Roboto', sans-serif;
+	--ui-login-container-bg-color: #fff;
+	--ui-login-input-border-color: darkGray;
+	--ui-login-input-text-color: black;
+	--ui-login-input-bg-color: #fff;
+	--ui-login-button-bg-color: #87c0fb;
+	--ui-login-button-hover-color: #87c0fb;
+	--ui-login-button-border-color: #87c0fb;
+	--ui-login-button-border-hover-color: #87c0fb;
+	--ui-login-button-text-color: #fff;
+	--ui-login-button-text-hover-color: #fff;
+	--ui-login-text-color: #757575;
+	--ui-login-text-error-color: #CD5C5C;
+
+	--ui-signup-font-family: 'Roboto', sans-serif;
+	--ui-signup-container-bg-color: #fff;
+	--ui-signup-container-border-color: gray;
+	--ui-signup-input-border-color: darkGray;
+	--ui-signup-input-text-color: black;
+	--ui-signup-input-bg-color: #fff;
+	--ui-signup-button-bg-color: #87c0fb;
+	--ui-signup-button-hover-color: #87c0fb;
+	--ui-signup-button-text-color: #fff;
+	--ui-signup-button-text-hover-color: #fff;
+	--ui-signup-button-border-color: #87c0fb;
+	--ui-signup-button-border-hover-color: #87c0fb;
+	--ui-signup-text-color: #757575;
+	--ui-signup-text-error-color: #CD5C5C;
+
+	--ui-password-reset-font-family: 'Roboto', sans-serif;
+	--ui-password-reset-container-bg-color: #fff;
+	--ui-password-reset-input-border-color: darkGray;
+	--ui-password-reset-input-text-color: black;
+	--ui-password-reset-input-bg-color: #fff;
+	--ui-password-reset-button-bg-color: #87c0fb;
+	--ui-password-reset-button-hover-color: #87c0fb;
+	--ui-password-reset-button-border-color: #87c0fb;
+	--ui-password-reset-button-border-hover-color: #87c0fb;
+	--ui-password-reset-button-text-color: #fff;
+	--ui-password-reset-button-text-hover-color: #fff;
+	--ui-password-reset-text-color: #757575;
+	--ui-password-reset-text-error-color: #CD5C5C;
+}
+
+.login-container, .signup-container, .password-reset-container {
+	background-color: var(--ui-login-container-bg-color);
+	margin:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20vh;
+	width:100%;
+	max-width:500px;
+}
+
+.signup-message, .forgot-message {
+	font-family:'Roboto',sans-serif;
+	text-align:center;
+	font-size:1em;
+	color:#808080;
+	width:100%;
+	margin-top:54px;
+}
+
+.signup-link, .forgot-link {
+	font-family:'Roboto',sans-serif;
+	font-size:1em;
+	color:#808080;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.signup-link:hover {
+	color: #87c0fb;
+}
